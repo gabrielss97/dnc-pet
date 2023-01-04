@@ -8,5 +8,9 @@ function show(increase) {
 }
 
 setInterval(() => {
-  show(index + 1);
+  if (index === liEls.length - 1) {
+    show(index - 2);
+  } else {
+    show(index + 1);
+  }
 }, 5000);
