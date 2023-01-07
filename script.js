@@ -7,3 +7,5 @@ function show(increase) {
   index = Math.min(Math.max(index, 0), liEls.length - 1);
   liEls[index].scrollIntoView({ behavior: "smooth" });
 }
+
+console.log("final");
