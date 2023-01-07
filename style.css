@@ -207,3 +207,14 @@ header .cart-shop-wrapper > span {
   gap: 1rem;
   list-style-type: none;
 }
+
+.learn-more {
+  margin-top: 2rem;
+  font-size: 27px;
+  font-weight: 700;
+  padding: 1rem 2rem;
+  border-radius: 15px;
+  border: none;
+  color: var(--itens-price);
+  margin-left: 4rem;
+}
